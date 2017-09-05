@@ -1,0 +1,51 @@
+{
+  "name": "web-starter-kit",
+  "version": "1.0.0",
+  "description": "larning yarn",
+  "main": "app.js",
+  "author": "angelo",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-mocks": "^1.6.5",
+    "d3": "^4.10.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "eslint": "^4.3.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-stylus": "^2.6.0",
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true,
+      "amd": true,
+      "node": true,
+      "jasmine": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+      "angular": true,
+      "angular-mocks": true,
+      "d3": true
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "warn",
+        "never"
+      ]
+    }
+  }
+}

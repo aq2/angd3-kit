@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AngularJS and d3 starter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body ng-app="">
+  
+<input type='text'
+       ng-model='name'
+       placeholder='Enter your name'>
+
+<h1>
+  hello  <span ng-show='name'> {{ name }} </span>
+</h1>
+
+
+<div id='chart'></div>
+
+<script src='js/d3.min.js'></script>
+<script src="js/libs.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
